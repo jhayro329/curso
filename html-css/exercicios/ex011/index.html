@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+    </head>
+    <body>
+    <h1><ins>Imagem Dinâmica</ins></h1>
+    <hr>
+    <h3>Tente abrir esse site em vários dispositívos diferentes ou  <br> aumente e diminua otamanho do seu navegador.<h3>
+    <hr>
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/fotop.png" type="image/png">
+
+        <source media="(max-width: 800px)" srcset="imagens/fotom.png" type="image/png">
+
+        <img src="imagens/fotog.png" alt="fotog.png">
+        </picture>
+
+        <h1>Reproduzindo Audio</h1>
+        <hr>
+        <p>Vamos aprender a reproduzir audio em Html.</p>
+        <audio preload="metadata" autoplay controls>
+        <source src="audio/sued.mp3.mp3" type="audio/mpeg">
+        <source src="audio/sued.mp3.ogg" type="audio/ogg">
+        <source src="audio/sued.mp3.wav" type="audio/wav">
+        </audio>
+        <audio preload="metadata" autoplay controls>
+            <source src="audio/Eva.mp3.mp3" type="audio/mp3">
+        </audio>
+       <source>
+        
+        <hr>
+            
+        </body>
+        </html>

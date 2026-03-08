@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(213, 197, 197);
+}
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.conteiner-central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(243, 219, 223);
+}
+
+h1{
+    text-align: center;
+    background-color: palevioletred;
+}
+.paragrafo{
+ 
+   text-align: center;
+   background-color: rgb(244, 142, 176);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 22px   
+}
+.simbolo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 50px;
+    background-color: pink;
+}
+.emoji{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: plum;
+    font-size: 50px;
+}
+
