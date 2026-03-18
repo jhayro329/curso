@@ -1,0 +1,235 @@
+       >S I T E S<
+(ADOBE COLORS) - site sobre paleta de cores
+( COOLORS)   - site sobre paleta de cores        
+( COLORZILA) - extensão para captar cores
+(FONTE NINJA) - extensao para captar configuraçoes  de fontes
+( GOOGLE FONTS) - site para baixar fontes
+( DA FONT) site - para baixar fontes
+
+Tudo que em html é ID...em css é (# hasteg) - só pode ,um elemento
+Tudo que em html é CLASS...em css é ( . ponto) - pode varios  elementos
+(.destaque) pode ser usada em uma CLASS para destacar um texto
+
+
+id="principal" - CONFIGURA UM <h1> OU UM <P> SEPARADAMENTE.
+NO CSS SE ESCREVE - #principal
+
+
+
+PONTO DE ( ! ) ABRE O INÍCIO DO HTML
+
+
+Title - é o nome do site.
+     h1 - título da página
+hr- linha horizontal
+     P - parágrafo
+br - quebra o texto em um lugar pontual
+
+     & - usado para começo de simbolos especiais
+&#x - usado para começo de emojis.
+
+     TAG ( STRONG ) - usada para negrito e itãlico
+TAG ( EM ) usada para italico e eñfase
+     TAG ( SRC ) Usada para adicionar imagens.
+link + favicon - icone da página; 
+     STRONG - negrito / destaque
+EM -  itálico / enfase
+     MARK - para marcar um texto
+BIG - para texto grande
+     SMALL - para texto pequeno
+DEL - para marcar um texto excluido
+     INS - para marcar um texto inserido
+SUP - texto sobrescrito...letra em cima da outra
+     SUB - texto subscrito...letra abaixo da outra
+TEXT-INDENT - serve para deslocar o inicio do texto
+mais pra frente
+line-height: - é o espaçamento entre linhas
+ list-style-position: inside - posicionar a lista pra dentro
+ list-style-position: outside - posicionar a lista pra fora
+ columns: - numéro de colunas
+ list-style-type: '\2714\00A0'; - ESTILIZAR UMA LISTA..COLOCANDO MARCADORES✔️
+ margin-inline-start: ;
+ mask-image: ;
+ margin-inline-end: ;
+mask-
+ margin-block-end: ;
+ margin-inline ;
+ margin-block-start:
+ margin-trim-
+scroll-margin-bottom: 
+-ms-layout-grid-mode: ;
+-webkit-margin-bottom-collapse: ;
+
+
+oL - LISTA ORDENADA
+     LI - list item - inserido dentro da tg ( ol)
+type - serve para numerar a lista, existe algumas opçoes de numeraçao
+      ex...(1,A,a,I,i).
+start="1" - número que começa a lista
+      ( ol) <ol type="1">
+
+UL - lista não ordenada - esse parametro é colocado dentro da tag 
+para marcar o inicio da frase, 
+e tem 3 opçoes de marcaçao ex..(<ul type="disc">...bolinha redonda)
+(<ul type="cicle"> círculo )
+(<ul type="square"> quadrado)
+
+a href - chama links externos ou internos
+     <a href="link do site" download="nome do arquivo" type="application/pdf"> baixar o livro em pdf
+
+ABBR - serve para destacar uma abreviaçao,ENVELOPA a sigla
+e digita abbr e enter. 	
+ex : HTML ( Hyper Text Markup Language )
+CSS ( Cascading Style Sheets )
+
+ <picture> tambem serve para postar imagens ,de formas diferentes.ex...
+<img src="nome da imagem" alt="imagem flexível">
+
+ <source media="(max-width: valor de pixel)" srcset="nome do arquivo" type="image/png">
+
+<audio ></audio> - esse comando é para audio
+ <source src="nome do audio" type="audio/wav"> - esse comando posta o audio no site.
+<audio preload="metadata" autoplay controls> - esse comando faz reproduzir.
+
+                                    POSTAR VÍDEO DO PC
+ <video width="300" height="200" poster="imagem/capa.jpg" controls>
+              (ex de um comando de posragem de video)
+
+<source src="ctrl espaço para postar video" type="video/formatodo vídeo">
+( comando para postar vídeos)
+                 POSTAR VÍDEOS ATRAVÉS DE URL
+   ( ENCORPORAR E COPIAR URL
+
+<DIREÇOES DE ITENS NO CSS>
+direita - RIGHT
+esquerda - LEFT
+cima - TOP
+baixo - BOTTOM
+
+PALETA DE CORES
+#FFD27F
+#FFA552
+#8FBF88
+#AEE4FF
+
+TIPOS DE FORMATOS DE FONTES
+> opentype (otf)
+> truetype (ttf)
+> embedded-opentype
+> truetype-att - apple advanced typography
+> svg
+
+@font-face { /*COMANDO PARA FONTES 
+@charset "UTF-8"; configuraçao global ...para caracters acentuados
+ @import - PARA CADA FONTE QUE FOR IMPORTADA... COLOCADO LOGO ABAIXO DO style
+ OU NAS PRIMEIRAS LINHAS DE UMA FOLHA DE CSS
+
+
+.especial::after{   /*PSEUDO ELEMENTO...SIMBOLO..( :: ) DOIS PONTOS.*/
+
+ a:visited{ /*É USADO PARA LINK JÁ VISITADO*/
+ 
+
+/*
+        SELETORES PERSONALISADOS
+        # = id
+        . = class
+        : = pseudo-classe
+        :: = pseudo-element
+        >  = clildren
+        */
+
+ background-image: linear-gradient(to right ,white,orange );
+( ex. de um comando para fazer cores gradientes)
+
+  (  * {  )  configuraçoes globais das CSS 
+
+           SHORTHAND FONT
+            Simplifica as configuraçoes das fontes NA ORDEM A SEGUIR:
+            font-style -> font-weight => font-size -> font-family*/
+
+  hover{   HOVER QUER DIZER...PASSAR OMOUSE EM CIMA*/
+  <h1 id="hover">Exemplo de Hover</h1> ex de como configurar o hover dentro do HTML
+/*HOVER É UMA PSEUDOCLASSE DE VARIOS ELEMENTOS*/
+
+
+ display: block; /* MOSTRA O ObJETO*/
+text-decoration:      /* USADO PARA FAZER SUBLINHADO*/
+content: ' ←  ' ; /*CONTENT SIGNIFICA CONTEÚDO*/
+
+ div > p { /*NESTE EX: O PARÁGRAFO SÓ PODE SER CONF DENTRO DE UMA DIV INDIVIDUALMENTE*/
+
+display: flex;  >  justify-content:center;  > align-items: right; - Esses comandos são
+para alinhar um item dentro de uma caixa.
+
+
+ display: inline-block; /*TODO CONTEÚDO NA MESMA LINHA*/
+
+
+ div > p { display: none; -  O ITEM FICA INVISIVEL
+display: block; - MOSTRA O ITEM
+
+article{ - artigo
+aside - conteúdo assunto
+ 
+background-repeat: no-repeat; - Essa propriedade é usada para
+a imagem nao ficar repetida na tela
+
+background-position:center top; - Essa propriedade é usada para
+alinhar a imagem de fundo para varios lados
+Na ordem horizontal > LEFT,center,right.
+Na ordem Vertical >  top,center,bottom
+
+background-size: cover; - Essa propriedade é usada para
+o conteúdo encher toda a pagina
+
+background-attachment: fixed; - Essa propriedade é usada para
+fixar o background
+
+ <ALINHAMENTO VERTICAL DE CAIXAS>
+ no container , sendo Id ou class: 
+#container{
+            position: relative; 
+ no conteúdo  sendo Id ou class: 
+ #conteudo{
+            position: absolute;
+ left: 38.9%;     top: 33.9%;  = 
+
+                                            TABELAS
+Hierarquia de tabelas Simples:
+Table - tabela
+Table Row = tr  - linha de tanela
+Table Header = th - cabeçalho
+Table Data = td - conteúdo
+
+Hierarquia de tabelas Grandes:
+THEAD - TR,TD,TH
+TBODY - TR,TD,TH
+TFOOT - TR,TD,TH
+border-collapse: collapse; - deixa a tabela com uma linha normal.
+ text-align: left; - alinha o texto em: LEFT,CENTER,RIGHT
+ vertical-align: bottom; - alinha o texto em: TOP,MIDDLE,BOTTOM.
+            
+https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o
+
+ 
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+																			=
+
