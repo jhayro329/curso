@@ -10,10 +10,36 @@
         body{
          background-color: rgb(236, 239, 240);
             font-family: Arial, Helvetica, sans-serif;
-        }   
+        }
+        h2{
+         background-color: rgba(72, 173, 245, 0.734);
+         padding: 10px;
+         text-align: center;
+        }
+        caption{
+         text-decoration: none;
+         
+         padding: 5px;
+        }
+        caption a{
+         color: black;
+        
+         
+        }
+
+        caption a:hover{
+         color: rgb(8, 8, 8);
+         background-color: rgba(72, 173, 245, 0.162);
+         
+         padding: 5px;
+         border-radius: 5px;
+         
+        
+        }  
         table{
             width: 700px;
             border-collapse: collapse;
+           
         }
         td,th{
             border: 1px solid black;
@@ -47,15 +73,16 @@
 </head>
 <body>
    <table>
+      <caption><a href="https://www.google.com/search?q=wikipedia+popula%C3%A7ao+brasileira+de+2024+e+2025&sca_esv=6b914df0baae36ea&biw=1051&bih=473&sxsrf=ANbL-n4kKn7BrHgKywb3U2oSYC_onRdXjg%3A1773921643701&ei=a-W7aee-KoLW1sQP9fv92AI&ved=0ahUKEwinoLqL9auTAxUCq5UCHfV9HysQ4dUDCBE&uact=5&oq=wikipedia+popula%C3%A7ao+brasileira+de+2024+e+2025&gs_lp=Egxnd3Mtd2l6LXNlcnAiLndpa2lwZWRpYSBwb3B1bGHDp2FvIGJyYXNpbGVpcmEgZGUgMjAyNCBlIDIwMjUyBRAhGKABMgUQIRigATIFECEYoAFIyZ8BUOQFWK1wcAB4ApABAJgB1AGgAYAVqgEGMC4xMy4yuAEDyAEA-AEBmAIQoAK1FsICBBAAGEfCAgYQABgWGB7CAggQABiJBRiiBMICBRAAGO8FwgIEECEYFcICBRAhGJ8FmAMAiAYBkAYIkgcGMS4xMi4zoAeTSLIHBjAuMTIuM7gHpxbCBwYyLTExLjXIB2qACAE&sclient=gws-wiz-serp" target="_blank">  &#128279;Tabela referente a população Brasileira nos anos 2024 e 2025</a></caption>
       <h2>Unidades Federativas do Brasil por população</h1>
     <thead>
       <tr>
-         <th></th> 
-        <th>Unidade Federativa </th>
-        <th>Estimativa Populacional 2025</th>
-        <th>Estimativa Populacional 2024</th>
-        <th>Variação Absoluta</th>
-        <th>Variação Percentual</th>
+         <th scope="col"></th> 
+        <th scope="col">Unidade Federativa </th>
+        <th scope="col">Estimativa Populacional 2025</th>
+        <th scope="col">Estimativa Populacional 2024</th>
+        <th scope="col">Variação Absoluta</th>
+        <th scope="col">Variação Percentual</th>
        
       </tr>
     </thead>
@@ -283,7 +310,7 @@
     <tfoot>
       <tr>
          <th></th>
-        <th>Total de Habitantes</th>
+        <th scope="rowgroup">Total de Habitantes</th>
         <td><strong>213 421 037</strong></td>
         <td><strong>203 080 756</strong></td>
         <td><strong>12 324 957</strong></td>

@@ -20,13 +20,17 @@
             padding: 10px;
             background-image:linear-gradient(to top, rgba(155, 217, 246, 0.488), white );
         }
+        col.uni{
+          background-color: burlywood;
+        }
+
         td,th{
             border: 1px solid black;
             padding: 8px;
         }
-        tbody tr:nth-child(2n) {
+        /*tbody tr:nth-child(2n) {
             background-color:rgb(243, 234, 234);
-        }
+        }*/
         td > img.img{
          width: 25px;
          height: 25px;
@@ -57,6 +61,13 @@
 <body>
     
     <table>
+      <colgroup>
+        <col class="cuni"> 
+        <col class="c25"> 
+        <col class="c24"> 
+        <col class="cabs"> 
+        <col class="cper">
+      </colgroup>
        <caption><strong>Tabela referente a população dos Estados Brasileiros</strong></caption> 
       <h2>Unidades Federativas do Brasil por população</h1>
     <thead>
