@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*CSS PARA TELA*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+hrml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+header{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+header > h1{
+    text-align: center;
+}
+menu ul{
+    list-style-type: none;
+    background-color: rgb(153, 141, 128);
+}
+menu li{
+    display:inline-block;
+    margin: auto;
+    padding: 5px;
+}
+article{
+    width: 700px;
+    display: block;
+    margin: auto;
+}
