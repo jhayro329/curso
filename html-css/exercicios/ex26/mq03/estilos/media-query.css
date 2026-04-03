@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*TODAS AS DEMAIS MÍDIAS*/
+
+
+/*Tipical Device Breqakpoint
+  --------------------------*/
+
+/*PEQUENAS TELAS: - ATÉ 600PX
+  CELULAR: - DE 600PX A 768PX
+  TABLET: = 768 A 992PX
+  DESKTOP: - 992 A 1200PX
+  GRANDES TELAS: - ACIMA DE 1200PX*/
+
+  @media print{ /*impressão*/
+
+}
+@media screen and (min-width:768px) and (max-width:992px) { /*TABLET*/
+ body{
+    background-image: url(../imagens/back-tablet.jpg);
+ }
+ main{
+    margin-right: 40px;
+ }
+    img#phone{display: none;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#desktop{display: none;}
+    img#tv{display: none;}
+        
+}
+@media screen and (min-width:992px) and (max-width:1200px) { /*DESKTOP*/
+ body{
+    background-image: url(../imagens/back-pc.jpg);
+ } 
+main{
+    background-color:rgba(241, 33, 154, 0.322); ;
+    margin-right: 40px;
+    
+ } 
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#desktop{display: block;}
+    img#tv{display: none;}  
+}
+@media screen and (min-width:1200px) { /*TELAS GRANDES*/
+ body{
+    background-image: url(../imagens/back-tv.jpg);
+ } 
+ main{
+    margin-right: 40px;
+    
+ }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#desktop{display: none;}
+    img#tv{display: block;}  
+}
