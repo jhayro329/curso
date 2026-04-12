@@ -316,8 +316,31 @@
         ORDER - Altera a ordem dos itens dentro do conteiner.
         ALIGN-SELF = só serve para ítens.
         ALIGN - SELF - Cada ítem pode ter um alinhamento diferente,
-        ele vai funcionar diretamente no CROSS AXIS.  
-     
+        ele vai funcionar diretamente no CROSS AXIS.
+
+        NO - FLEX-BASIS:AUTO; - AUTOMATICAMENTE O TAMAMHO DO ITEM,NO CONTAINER, É DE
+        ACORDO COM O TAMANHO DO QUE TEM DENTRO DELE.
+
+            FLEX  -  SIMPLIFICAÇOES PARA DECLARAÇOES :(SHORTHANDS)
+            FLEX = FLEX-GROW + FLEX-SHRINK + FLEX-BASIS.
+
+           ( Flex: 0 1 auto; )  ou   (  Flex: initial;  ) valor padrão inicial.
+
+           (Flex: 0 0 auto; )  ou  (Flex: none; ) zera todas as configuraços FLEX dos ítens.
+
+           (FLEX: 1 1 auto; )  OU  (Flex: auto;) permite que a caixa seja mega flexível..,
+           ter o máximo de flexibiledade que ela puder.
+
+           (Flex:  3    ;) - nesse ex: os valores que nao foram escritos...(shrink e basis) sao 
+           considerados valores automáticos (padrão).
+        
+        FLEX-SHRINK - Encolhe o ítem
+        FLEX-GROW - ESTICA O ITEM.
+
+                   Valor padrão:
+                   para BASIS é - auto;
+                   para GROW é - 0;
+                   para SHRINK é - 1;
                 </P>
     </body>
 
