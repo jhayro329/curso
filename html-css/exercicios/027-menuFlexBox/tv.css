@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+main{
+    width: 600px;
+    margin: auto;
+}
+header > h1{
+    font-size: 3em;
+}
