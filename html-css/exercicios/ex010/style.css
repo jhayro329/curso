@@ -4,6 +4,13 @@ body{
 .externos{
     background-color: rgb(202, 220, 235);
 }
+.externos > p > a{
+    text-decoration: none;
+    color: rgb(77, 77, 3);
+}
+.externos > p > a:hover{
+    color: blue;
+}
 .internos{
     background-color: rgb(222, 248, 239);
 }
