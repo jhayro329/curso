@@ -21,6 +21,7 @@
  }
  main{
     margin-right: 40px;
+     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.274);
  }
     img#phone{display: none;}
     img#tablet{display: block;}
@@ -34,8 +35,9 @@
     background-image: url(../imagens/back-pc.jpg);
  } 
 main{
-    background-color:rgba(241, 33, 154, 0.322); ;
+    background-color:rgba(230, 36, 149, 0.178); ;
     margin-right: 40px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.274);
     
  } 
     img#phone{display: none;}
@@ -50,6 +52,7 @@ main{
  } 
  main{
     margin-right: 40px;
+     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.274);
     
  }
     img#phone{display: none;}

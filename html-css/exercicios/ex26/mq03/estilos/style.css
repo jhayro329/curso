@@ -18,17 +18,19 @@ body{
     background-position: center center;
 }
 main{
-    background-color: rgba(250, 235, 215, 0.514);
-    width: 400px;
-    margin: auto;
+    background-color: rgba(134, 119, 99, 0.514);
+    width: 200px;
+    margin: left;
+    margin-left: 10px;
     margin-top: 20px;
-    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
     padding: 10px;
-}
+}   
 h1{
     text-align: center;
     color: rgb(241, 227, 227);
-    font-size: 2em;
+    font-size: 1.5em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.89);
 }
 

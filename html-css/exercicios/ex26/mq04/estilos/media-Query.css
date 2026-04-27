@@ -7,11 +7,11 @@
 
     
 
-    menu {
-        display: block;
+    menu#itens{
+        display: inline-block; 
     }
-
-    menu > ul > li  {
+   
+    menu , ul , li {
       display: inline-block;   
     }
 
@@ -20,3 +20,5 @@
 }
 
 }
+
+
